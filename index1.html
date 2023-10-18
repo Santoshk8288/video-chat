@@ -1,0 +1,10 @@
+<html>
+  <body>
+    <h1>Hello world</h1>
+  </body>
+  <script src="http://192.168.88.73:3100/socket.io/socket.io.js"></script>
+  <script>
+    let socket = io.connect('http://192.168.88.73:3100')
+    socket.emit('join', Math.floor(Math.random() * 100))
+  </script>
+</html>

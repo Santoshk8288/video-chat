@@ -1,0 +1,17 @@
+{
+  "name": "iochat",
+  "version": "1.0.0",
+  "description": "my node app for live chat",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Santosh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*",
+    "fs": "0.0.1-security",
+    "socket.io": "^2.3.0"
+  }
+}
